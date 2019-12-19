@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sister SMKN 2 Jember</title>
+    <link rel="stylesheet" href="reponsive.css">
+  </head>
+  <body>
+      <div class="container">
+        <img src="tut.png" class="gambar">
+        <ul>
+          <li class="judul">Sistem Informasi Terpadu</li>
+          <li class="teks">SEKOLAH MENENGAH KEJURUAN(SMK)</li>
+        </ul>
+        <ul>
+          <li class="nama">Nama : ABDUL MUFID EFENDI</li>
+          <li class="nama">NIS : 112313345376</li>
+          <li class="nama">Jurusan : TEKNIK KOMPUTER JARINGAN</li>
+          <li><img src="kunci.png" class="kunci"><img src="arah.png" class="arah"></li>
+          <li id="keluar"><a href="ganti_password.html.htm" class="keluar"> Ganti Password </a></li>
+          <li id="keluar"><a href="index.html" class="keluar"  onclick="myFunction()"> Log Out </a> </li>
+          <li id="Pengaduan"><a href="Pengaduan.html"  class="Pengaduan">Pengaduan</a></li>
+          <li id="menu"><a href="Beranda.html" class="menu">Beranda</a></li>
+          <li id="menu"><a href="Jadwal Pelajaran.html" class="menu">Pelajaran</a></li>
+          <li id="menu"><a href="Nilai.html" class="menu">Nilai</a></li>
+          <li id="menu"><a href="Profil.html" class="menu">Profil</a></li>
+        </ul>
+      </div>
+      <div class="detail">
+        <h2>Kompetisi Penulisan dan Debat Hukum Nama Domain Indonesia 2019</h2>
+        <h4>Call For Essay And Low Debate Team</h4>
+        <p>Kompetisi Penulisan dan Debat Hukum Nama Domain Indonesia. Mari ikuti ajang kompetisi menulis artikel 3-7 halaman tentang Nama Domain di Indosenia dengan total hadiah 34 juta rupiah.</p>
+        <h4>Kompetisi ini terdiri atas 4 kategori tema, sebagai berikut :</h4>
+        <ol>
+          <li>Aspek-aspek Implikasi Hukum pada Pendaftaran Nama Domian</li>
+          <li>Pendaftaran Nama Domain sebagai Perlindungan Merek</li>
+          <li>Penyelasaian Perselisihan Nama Domian (PPND) sebagai Online Dispute Resolution</li>
+          <li>Pengguna Asing pada Nama Domain Indonesia</li>
+        </ol>
+        <p>Akan dipilih 10 pemenang dengan total hadoah senilai Rp. 34.000.000,-</p>
+        <p>2 tim terbaik akan maju ke babak selanjuutnya untuk mengikuti Kompetisi Debat yang diselenggarakan pada tanggal 10 Agustus 2019 di acara PANDI MEETING X.</p>
+        <p>Waktu pengumpulan artikel dari tanggal 20 - 30 Juli 2019, batas pengumpulan kami tutup tanggal 30 Juli 2019 jam 23:59 WIB.</p>
+    <button id="myBtn">Daftar</button>
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <div class="formulir">
+        <h3>Formulir Pengumpulan Berkas</h3>
+        <form action="Beranda.html">
+            <div class="form-group">
+                <div class="form2">
+                    <label for="">Email</label>
+                    <input id="email" type="text" placeholder="Masukkan Email">
+                </div>
+                <div class="form2">
+                    <label for="">Nama</label>
+                    <input id="nama" type="text" placeholder="Masukkan Nama">
+                </div>
+                <div class="form2">
+                    <label for="">Alamat</label>
+                    <input id="alamat" type="text" placeholder="Masukkan Alamat">
+                </div>
+                <div class="form2">
+                    <label for="">Asal Sekolah</label>
+                    <input id="sekolah" type="text" placeholder="Masukkan Asal Sekolah">
+                </div>
+                <div class="form2">
+                    <label for="">Berkas</label>
+                    <input id="berkas" type="file" placeholder="Masukkan File Anda">
+                </div>
+                <div>
+                  <button type="submit" name="button">Unggah</button>
+                </div>
+            </div>
+        </form>
+      </div>
+      </div>
+
+  <script>
+  var modal = document.getElementById("myModal");
+
+  var btn = document.getElementById("myBtn");
+
+  var span = document.getElementsByClassName("close")[0];
+
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+
+  </body>
+</html>
